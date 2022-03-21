@@ -30,13 +30,13 @@
             <form class="nestedgrid2" action="https://formspree.io/f/meqnzayq" method="post">
               <div class="div1">
               
-              Name*<br><label> full name</label><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-Email*<br> <label> personal adress</label> <input type="email" size="30" required name="email"> <br>
-phone number*<br><label>personal number</label><input type="tel" size="30" placeholder="(xxx) xxx xxxx"  required name="phone"><br>
-personal website<br><label> insert url here</label><input type="URL" size="30"><br>
+              Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="fullname"><br>
+Email*<br> <input type="email" size="30" required name="email" aria-label="personal address"><br>
+phone number*<br><input type="tel" size="30" placeholder="(xxx) xxx xxxx"  required name="phone" aria-label="personal number"><br>
+personal website<br><input type="URL" size="30" aria-label="insert url here"><br>
 </div>
 <div class="div2">
-current highschool*<br><label> choose from list/other</label><input type="text" size="30" list="highschool"><br>
+current highschool*<br><input type="text" size="30" list="highschool" aria-label="choose from list/other"><br>
 <datalist id="highschool">
   <option value="Beaverbrook">
  <option value="Birchwood">
@@ -45,8 +45,8 @@ current highschool*<br><label> choose from list/other</label><input type="text" 
        <option value="Hainesville">
         <option value="Other">
 </datalist>
-<br> Expected date of entry*<label> pick welcome</label><input type="date" placeholder="mm/dd/yyyy" name="entry"> <br>
-number of days/weeks desired*<br><label> whatever</label><input type="number" min="1" max="5" step="1" value="2" name="number">
+<br> Expected date of entry*<input type="date" placeholder="mm/dd/yyyy" name="entry" aria-label="welcome"> <br>
+number of days/weeks desired*<br><input type="number" min="1" max="5" step="1" value="2" name="number" aria-label="whatever">
 <br><input type="submit" value="Help me boost my scores" class="button">
 </div></form>
 
